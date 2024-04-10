@@ -25,6 +25,9 @@ function empty (){
     basket.length = 0;
 }
 
+empty(basket);
+console.log(basket);
+
 console.log(`basket is ${basket}`);
 console.log('Adding apples (expect true)', addItem('apple'));
 console.log(`Basket is now ${basket}`);
